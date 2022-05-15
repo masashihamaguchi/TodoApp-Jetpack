@@ -50,8 +50,6 @@ dependencies {
 
     // for Room
     implementation "androidx.room:room-runtime:2.4.2"
-    implementation 'com.google.firebase:protolite-well-known-types:18.0.0'
-    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
     kapt "androidx.room:room-compiler:2.4.2"
 
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -65,4 +63,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
 }
