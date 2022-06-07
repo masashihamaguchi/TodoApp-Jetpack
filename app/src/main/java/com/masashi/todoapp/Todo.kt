@@ -10,7 +10,7 @@ import java.util.*
 @Entity(tableName = "todos")
 data class Todo(
     @PrimaryKey(autoGenerate = true)
-    val id: Int? = null,
-    val title: String = "",
+    val id: Long,
+    val title: String,
     val created_at: Date = Date()
 )
